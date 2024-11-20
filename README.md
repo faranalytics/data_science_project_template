@@ -146,7 +146,7 @@ dependencies = [
 ```
 
 ## Pipelines
-You can use `__main__.py` in order to define your project's pipeline.  You can run your package's pipeline using the `-m` option.
+You can use `__main__.py` in order to define your project's pipeline.  Once your package is installed and your pipeline is defined in your `__main__.py` module, you can run your package's pipeline using the `-m` option.
 ```bash
 python -m your-package-name
 ```
