@@ -13,7 +13,8 @@ A Python [flat-layout](https://packaging.python.org/en/latest/discussions/src-la
 git clone https://github.com/faranalytics/data_science_project_template.git
 ```
 
-### Change directory into the repository.
+### Change directory into the repository's project directory.
+This is the top-level directory of a conventional Python package.
 ```bash
 cd data_science_project_template/project
 ```
@@ -50,7 +51,13 @@ cd data_science_project_template/project
 name = "package" # Choose a unique name for your package.
 ```
 
-Install the package in editable mode.  An editable install, also known as a development install, will make changes to your package modules immediately available when you restart your kernel.
+### Activate your environment if you are using a package manager (e.g., conda).
+```bash
+conda activate your-environment
+```
+
+### Install the package in editable mode.  
+An editable install, also known as a development install, will make changes to your package modules immediately available when you restart your kernel.
 ```bash
 pip install -e .
 ```
