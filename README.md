@@ -6,6 +6,10 @@ A Python [flat-layout](https://packaging.python.org/en/latest/discussions/src-la
  
  It consists of a single `package` that contains `materials`, `methods`, and `results` sub-packages.  Project dependencies are specified in the `pyproject.toml` file.  The package is installed like an ordinary Python package.  Utility functions can be conveniently imported into notebooks from anywhere in the package.  It makes imports seamless without having to modify `sys.path` or set the `PYTHONPATH` environment variable.
 
+## Table of Contents
+- [Usage](#usage)
+- [Dependencies](#dependencies)
+
 ## Usage
 
 ### Clone the repository.
@@ -138,4 +142,10 @@ dependencies = [
     "pandas>=2, <3"
     ]
 ...
+```
+
+## Pipelines
+You can use `__main__.py` in order to define your project's pipeline.  You can run your package's pipeline using the `-m` option.
+```bash
+python -m your-package-name
 ```
