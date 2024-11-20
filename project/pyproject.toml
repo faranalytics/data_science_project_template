@@ -1,0 +1,30 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "package"
+dynamic = ["version"]
+authors = [
+  { name="Example Author", email="author@example.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "hatch", 
+  "ipykernel"
+]
+
+[project.urls]
+Homepage = "https://github.com/faranalytics/methods"
+Issues = "https://packagegithub.com/faranalytics/methods/issues"
+
+[tool.hatch.version]
+path = "__about__.py"
+
