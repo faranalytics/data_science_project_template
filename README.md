@@ -35,7 +35,7 @@ cd data_science_project_template/project
     │   ├── materials ⬅ You can put your datasets in the materials directory.
     │   │   ├── __init__.py
     │   │   └── README.md
-    │   ├── methods ⬅ You can put your utility functions and Notebooks in the methods directory.
+    │   ├── methods ⬅ You can put your utility functions and notebooks in the methods directory.
     │   │   ├── __init__.py
     │   │   ├── notebooks
     │   │   │   └── main.ipynb
