@@ -9,6 +9,7 @@ A Python [flat-layout](https://packaging.python.org/en/latest/discussions/src-la
 ## Table of Contents
 - [Usage](#usage)
 - [Dependencies](#dependencies)
+- [Pipelines](#pipelines)
 
 ## Usage
 
