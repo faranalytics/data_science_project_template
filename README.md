@@ -1,8 +1,10 @@
 # Data Science Project Template
-A [flat-layout](https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/) Python project template for data science projects.
+A Python [flat-layout](https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/) project template for data science projects.
 
 ## Introduction
-This [flat-layout](https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/) project template may be suitable for some data science projects. It consists of a single `package` that contains `materials`, `methods`, and `results` sub-packages.  Project dependencies are specified in the `pyproject.toml` file.  The package is installed like an ordinary Python package.  Utility functions can be conveniently imported into notebooks from anywhere in the package.  It makes imports seamless without having to modify `sys.path` or the `PYTHONPATH` environment variable.
+ In the data science domain projects are sometimes shared as an informal assemblage of scripts.  A `requirements.txt` file is sometimes used in order to reconstruct the project's environment. This [flat-layout](https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/) project template provides an alternative packaging approach that follows formal conventions for packaging a Python project.
+ 
+ It consists of a single `package` that contains `materials`, `methods`, and `results` sub-packages.  Project dependencies are specified in the `pyproject.toml` file.  The package is installed like an ordinary Python package.  Utility functions can be conveniently imported into notebooks from anywhere in the package.  It makes imports seamless without having to modify `sys.path` or set the `PYTHONPATH` environment variable.
 
 ## Usage
 
