@@ -33,7 +33,6 @@ cd data_science_project_template/project
     │   │   ├── README.md
     │   │   └── utils.py
     │   └── results
-    │       ├── data.pkl
     │       ├── __init__.py
     │       └── README.md
     ├── pyproject.toml
