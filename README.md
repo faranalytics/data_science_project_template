@@ -32,16 +32,16 @@ cd data_science_project_template/project
     ├── package ⬅ This is the package directory.  Optionally give the package a unique name.
     │   ├── __init__.py
     |   ├── __main__.py
-    │   ├── materials
+    │   ├── materials ⬅ You can put your datasets in the materials directory.
     │   │   ├── __init__.py
     │   │   └── README.md
-    │   ├── methods
+    │   ├── methods ⬅ You can put your utility functions and Notebooks in the methods directory.
     │   │   ├── __init__.py
     │   │   ├── notebooks
     │   │   │   └── main.ipynb
     │   │   ├── README.md
     │   │   └── utils.py
-    │   └── results
+    │   └── results ⬅ You can put the outputs of your scripts (e.g., tables and visualization) in the results directory.
     │       ├── __init__.py
     │       └── README.md
     ├── pyproject.toml
