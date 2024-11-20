@@ -23,6 +23,7 @@ cd data_science_project_template/project
     ├── LICENSE
     ├── package ⬅ This is the package directory.  Optionally give the package a unique name.
     │   ├── __init__.py
+    |   ├── __main__.py
     │   ├── materials
     │   │   ├── __init__.py
     │   │   └── README.md
