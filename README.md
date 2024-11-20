@@ -2,9 +2,7 @@
 A [flat-layout](https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/) Python project template for data science projects.
 
 ## Introduction
-This [flat-layout](https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/) project template may be suitable for some data science projects. It consists of a single `package` that contains `materials`, `methods`, and `results` sub-packages.  Project dependencies are specified in the `pyproject.toml` file.  The package is installed like an ordinary Python package.  Utility functions can be conveniently imported into notebooks from anywhere in the package.  It make imports seamless without having to modify `sys.path` or the `PYTHONPATH` environment variable.
-
-This approach differs from the usual practice of sharing a project with a requirement.txt file.  Formalizing the packaging of data science projects may help with reproducibility.
+This [flat-layout](https://packaging.python.org/en/latest/discussions/src-layout-vs-flat-layout/) project template may be suitable for some data science projects. It consists of a single `package` that contains `materials`, `methods`, and `results` sub-packages.  Project dependencies are specified in the `pyproject.toml` file.  The package is installed like an ordinary Python package.  Utility functions can be conveniently imported into notebooks from anywhere in the package.  It makes imports seamless without having to modify `sys.path` or the `PYTHONPATH` environment variable.
 
 ## Usage
 
@@ -125,6 +123,10 @@ You can include the `pandas` package, for example, by adding it to the list of `
 `pyproject.toml`
 ```python
 ...
-dependencies = ["hatch", "ipykernel", "pandas>=2, <3"]
+dependencies = [
+    "hatch", 
+    "ipykernel", 
+    "pandas>=2, <3"
+    ]
 ...
 ```
