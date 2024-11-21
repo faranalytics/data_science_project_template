@@ -41,7 +41,7 @@ cd data_science_project_template/project
     │   │   │   └── main.ipynb
     │   │   ├── README.md
     │   │   └── utils.py
-    │   └── results ⬅ You can put the outputs of your scripts (e.g., tables and visualization) in the results directory.
+    │   └── results ⬅ You can put the outputs of your scripts (e.g., tables and visualizations) in the results directory.
     │       ├── __init__.py
     │       └── README.md
     ├── pyproject.toml
