@@ -22,8 +22,8 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/faranalytics/methods"
-Issues = "https://packagegithub.com/faranalytics/methods/issues"
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"
 
 [tool.hatch.version]
 path = "__about__.py"
